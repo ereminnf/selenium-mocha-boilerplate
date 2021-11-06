@@ -6,10 +6,11 @@ node_modules
 # testing
 .nyc_output
 coverage
-tests_output/
 reports/
 tests/reports/
-tests_output/
+tests_output/**
+!tests_output/screenshots
+tests_output/screenshots/**
 chromedriver.log
 data/**
 !data/.gitkeep

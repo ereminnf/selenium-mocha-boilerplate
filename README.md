@@ -26,4 +26,8 @@ root
 │     │     └── [pageName]/
 │     │           └── index.spec.ts
 │     └── driver.ts
+└── tests_output/
+│     ├── ...
+│     └── screenshots/
+├── ...
 ```
