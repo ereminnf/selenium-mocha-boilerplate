@@ -1,6 +1,7 @@
 # Ui автотесты с использованием Selenium
 
--   selenium/mocha;
+-   selenium;
+-   mocha/chai;
 -   typescript.
 
 ## Использование
