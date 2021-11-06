@@ -1,0 +1,56 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es6"
+        ],
+        "allowJs": true,
+        // "checkJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noImplicitAny": true,
+        "jsx": "react",
+        "module" : "commonjs",
+        "strictNullChecks": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "typings/**/*"
+        ],
+        // "paths": {
+        //     "@utils/*": ["node_modules/pobeda-ui/src/ui/utils/*"]
+        // },
+        "noImplicitThis": false,
+        "rootDir": "./",
+        // "baseUrl": "."
+        // "outDir": "./dist/bin",
+        // "outFile": "./bin/index.js",
+        "emitDeclarationOnly": false,
+        "declaration": false,
+        "declarationMap": false,
+        "sourceMap": false,
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "coverage",
+        "configs",
+        "drivers",
+        "tests_output",
+    ],
+    "include": [
+        "./typings/**/*.ts",
+        "./tests/**/*.ts",
+        "./tests/**/*.js",
+    ]
+}
