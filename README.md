@@ -1,4 +1,4 @@
-# Ui автотесты с использованием Selenium
+# e2e автотесты с использованием Selenium
 
 -   selenium;
 -   mocha/chai;
